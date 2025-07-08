@@ -29,8 +29,6 @@ $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
 
-// Forzamos el uso del tema 'boost' para recuperar el acceso
-$CFG->theme = 'boost';
 
 require_once(__DIR__ . '/lib/setup.php');
 
